@@ -1,6 +1,8 @@
 {
   "name": "ott",
   "version": "1.0.0",
+  "description": "Stalker portal app for TizenBrew",
+  "main": "index.html",
   "scripts": {
     "start": "vite --host 0.0.0.0",
     "server": "node server.js",
@@ -15,5 +17,10 @@
     "axios": "latest",
     "cors": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "tizenbrew": {
+    "name": "ott",
+    "title": "OTT",
+    "entry": "index.html"
+  }
 }
