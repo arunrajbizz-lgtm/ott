@@ -1,39 +1,14 @@
 {
   "name": "arunraj-ott",
-  "version": "1.0.1",
-  "description": "OTT TizenBrew module",
+  "version": "1.0.2",
+  "description": "Open Stalker portal in TizenBrew",
   "main": "index.html",
-  "tizenbrew": {
-    "id": "arunraj-ott",
-    "name": "arunraj-ott",
-    "title": "OTT",
-    "type": "app",
-    "entry": "index.html"
-  },
   "files": [
     "index.html",
-    "dist",
-    "src",
-    "public",
-    "config.xml",
-    "server.js",
     "package.json"
   ],
-  "scripts": {
-    "start": "vite --host 0.0.0.0",
-    "server": "node server.js",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "express": "latest",
-    "axios": "latest",
-    "cors": "latest"
-  },
-  "devDependencies": {},
-  "keywords": ["tizenbrew", "tizen", "samsung-tv", "ott"],
+  "keywords": [
+    "tizenbrew"
+  ],
   "license": "MIT"
 }
