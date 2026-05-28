@@ -1,7 +1,9 @@
 {
   "name": "@arunrajbizz-lgtm/ott",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OTT TizenBrew module",
+  "packageType": "app",
+  "appName": "ott",
   "main": "index.html",
   "files": [
     "index.html",
@@ -25,10 +27,10 @@
     "cors": "latest"
   },
   "devDependencies": {},
-  "tizenbrew": {
-    "name": "ott",
-    "title": "OTT",
-    "entry": "index.html"
-  },
+  "keywords": [
+    "tizenbrew",
+    "tizen",
+    "samsung-tv"
+  ],
   "license": "MIT"
 }
