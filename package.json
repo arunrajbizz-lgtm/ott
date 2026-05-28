@@ -1,14 +1,8 @@
 {
   "name": "arunraj-ott",
-  "version": "1.0.2",
-  "description": "Open Stalker portal in TizenBrew",
+  "version": "1.0.4",
+  "description": "OTT launcher",
   "main": "index.html",
-  "files": [
-    "index.html",
-    "package.json"
-  ],
-  "keywords": [
-    "tizenbrew"
-  ],
+  "files": ["index.html", "package.json"],
   "license": "MIT"
 }
